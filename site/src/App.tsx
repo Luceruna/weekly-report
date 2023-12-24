@@ -1,10 +1,10 @@
 import React from 'react';
-import Chat from './components/Chat';
+import WeeklyEntry from './components/WeeklyEntry.tsx';
 
 const App: React.FC = () => {
   return (
     <div>
-      <Chat />
+      <WeeklyEntry />
     </div>
   );
 };
